@@ -6,9 +6,9 @@ dir_list:
   split_save_dir: "data_splits/split_indices"
 
 dataset_config:
-  name: "TCGA-BRCA" #"TCGA-BRCA" #
-  count_file: "data/processed/TCGA-BRCA_primary_tumor_star_deseq_VST_lmgenes.tsv" #"TCGA-COMBINED" #
-  annot_file: "data/meta/TCGA-BRCA_primary_tumor_subtypes.csv" #"TCGA-COMBINED" #
+  name: "TCGA-BRCA" #"TCGA-COMBINED" # 
+  count_file: "data/processed/TCGA-BRCA_primary_tumor_star_deseq_VST_lmgenes.tsv" #"TCGA-COMBINED" # 
+  annot_file: "data/meta/TCGA-BRCA_primary_tumor_subtypes.csv" #"TCGA-COMBINED" # 
   sample_col_name: "samplesID" 
   subtype_col_name: "Subtype" #"cancer_type"  "Subtype"
   num_splits: 5
@@ -20,7 +20,6 @@ train: True
 load_from_checkpoint: False
 
 pgg_pgm_config:
-  epsilon: 1.0
+  epsilon: 50.0
   iterations: 10000
-
 
