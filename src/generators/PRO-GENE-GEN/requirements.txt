@@ -1,0 +1,15 @@
+ipykernel==6.29.2
+matplotlib==3.8.3
+numpy==1.26.4
+pandas==2.2.0
+pyarrow==15.0.0
+scikit-learn==1.4.0
+black==24.2.0
+torch==2.2.0
+opacus==0.15.0
+pandas==2.2.0
+progress
+seaborn
+scikit-learn
+mkl-service
+nbconvert
