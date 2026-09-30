@@ -1,0 +1,16 @@
+name: huskies-env
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - numpy=1.26.4
+  - pandas=2.2.3
+  - scipy=1.14.1
+  - scikit-learn=1.5.2
+  - pip=24.3.1
+  - pip:
+      - PyYAML
+      - click
+
